@@ -1,18 +1,11 @@
 {
+    "global": {
+        "check_for_updates_on_startup": true,
+        "show_in_menu_bar": true
+    },
     "profiles": [
         {
-            "devices": [
-                {
-                    "disable_built_in_keyboard_if_exists": false,
-                    "identifiers": {
-                        "is_keyboard": true,
-                        "is_pointing_device": false,
-                        "product_id": 276,
-                        "vendor_id": 4176
-                    },
-                    "ignore": true
-                }
-            ],
+            "devices": [],
             "fn_function_keys": {
                 "f1": "vk_consumer_brightness_down",
                 "f10": "mute",
@@ -30,8 +23,11 @@
             "name": "Default profile",
             "selected": true,
             "simple_modifications": {
-                "caps_lock": "left_control",
-                "right_option": "f17"
+                "caps_lock": "left_option",
+                "fn": "left_control",
+                "left_alt": "left_command",
+                "left_option": "left_command",
+                "right_option": "right_command"
             },
             "virtual_hid_keyboard": {
                 "caps_lock_delay_milliseconds": 0,

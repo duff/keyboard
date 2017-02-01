@@ -13,9 +13,6 @@ ln -sf $PWD/karabiner/karabiner.json ~/.config/karabiner/karabiner.json
 # Prepare custom settings for Hammerspoon
 ln -sfn $PWD/hammerspoon ~/.hammerspoon
 
-# Prepare custom settings for navigating between words in iTerm2
-grep -sq forward-word ~/.inputrc || cat $PWD/inputrc >> ~/.inputrc
-
 # Disable Dock icon for Hammerspoon
 defaults write org.hammerspoon.Hammerspoon MJShowDockIconKey -bool FALSE
 
