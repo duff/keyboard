@@ -36,9 +36,9 @@
             "simple_modifications": {
                 "caps_lock": "left_option",
                 "fn": "left_control",
-                "left_alt": "left_command",
                 "left_option": "left_command",
-                "right_option": "right_command"
+                "right_command": "f17",
+                "right_option": "f17"
             },
             "virtual_hid_keyboard": {
                 "caps_lock_delay_milliseconds": 0,
