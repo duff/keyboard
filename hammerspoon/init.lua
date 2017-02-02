@@ -25,6 +25,7 @@ enableHotkeyForWindowsMatchingFilter = function(windowFilter, hotkey)
   end)
 end
 
+require('option-escape')
 require('hyper')
 
 hs.notify.new({title='Hammerspoon', informativeText='Ready to rock 🤘'}):send()
