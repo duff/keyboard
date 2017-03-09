@@ -27,5 +27,6 @@ end
 
 require('option-escape')
 require('hyper')
+require('markdown')
 
 hs.notify.new({title='Hammerspoon', informativeText='Ready to rock 🤘'}):send()
