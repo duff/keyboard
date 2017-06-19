@@ -21,5 +21,10 @@ for i, mapping in ipairs(hyperModeAppMappings) do
   hs.hotkey.bind({"cmd","ctrl","alt","shift", }, mapping[1], function()
     hs.application.launchOrFocus(mapping[2])
   end)
-
 end
+
+hs.hotkey.bind({"cmd","ctrl","alt","shift", }, 'g', nil, function()
+  hs.eventtap.keyStroke({'alt'}, 'space')
+  hs.eventtap.keyStrokes('d ')
+end)
+
