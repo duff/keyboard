@@ -4,7 +4,7 @@ hyperMode = hs.hotkey.modal.new({}, 'F18')
 -- Keybindings for launching apps in Hyper Mode
 hyperModeAppMappings = {
   { 'a', '1Password 6' },
-  { 's', 'Google Chrome' },
+  { 'c', 'Google Chrome' },
   { 'x', '/usr/local/Cellar/emacs/25.1/Emacs.app' },
   { 'u', 'iTunes' },
   { 'v', 'MacVim' },
@@ -12,7 +12,7 @@ hyperModeAppMappings = {
   { 'm', 'Messages' },
   { 'n', 'NetNewsWire' },
   { 'f', 'Path Finder' },
-  { 'c', 'Safari' },
+  { 's', 'Safari' },
   { 'p', 'Slack' },
   { 'o', 'Spotify' },
   { 't', 'iTerm' },
