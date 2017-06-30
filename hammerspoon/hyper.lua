@@ -25,6 +25,7 @@ end
 
 hs.hotkey.bind({"cmd","ctrl","alt","shift", }, 'g', nil, function()
   hs.eventtap.keyStroke({'alt'}, 'space')
+  hs.timer.usleep(20000)
   hs.eventtap.keyStrokes('d ')
 end)
 
