@@ -2,9 +2,8 @@
 hyperModeAppMappings = {
   { 'a', '1Password 6' },
   { 'c', 'Google Chrome' },
-  { 'x', '/usr/local/Cellar/emacs/25.1/Emacs.app' },
   { 'u', 'iTunes' },
-  { 'v', 'MacVim' },
+  { 'v', '/usr/local/opt/macvim/MacVim.app' },
   { 'e', 'Mail' },
   { 'm', 'Messages' },
   { 'n', 'NetNewsWire' },
@@ -13,8 +12,7 @@ hyperModeAppMappings = {
   { 'p', 'Slack' },
   { 'o', 'Spotify' },
   { 't', 'iTerm' },
-  { 'h', 'Things' },
-  { 'w', 'Tweetbot' }
+  { 'h', 'Things' }
 }
 
 for i, mapping in ipairs(hyperModeAppMappings) do
@@ -28,4 +26,5 @@ hs.hotkey.bind({"cmd","ctrl","alt","shift", }, 'g', nil, function()
   hs.timer.usleep(20000)
   hs.eventtap.keyStrokes('d ')
 end)
+
 
