@@ -27,7 +27,7 @@ end
 
 require('markdown')
 require('panes')
-require('hyper')
+require('hotkeys')
 require('windows')
 
 hs.notify.new({title='Hammerspoon', informativeText='Ready to rock 🤘'}):send()
