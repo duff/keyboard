@@ -1,18 +1,18 @@
 -- Keybindings for launching apps using the Hyper key
 hyperModeAppMappings = {
   { 'a', '1Password 6' },
-  { 'c', 'Google Chrome' },
+  { 'c', 'Safari' },
   { 'u', 'iTunes' },
-  { 'v', '/usr/local/opt/macvim/MacVim.app' },
+  { 'v', 'MacVim' },
   { 'e', 'Mail' },
   { 'm', 'Messages' },
   { 'n', 'NetNewsWire' },
   { 'f', 'Path Finder' },
-  { 's', 'FirefoxDeveloperEdition' },
+  { 's', 'Google Chrome' },
   { 'p', 'Slack' },
   { 'o', 'Spotify' },
   { 't', 'iTerm' },
-  { 'h', 'Things' }
+  { 'h', 'Things3' }
 }
 
 for i, mapping in ipairs(hyperModeAppMappings) do
