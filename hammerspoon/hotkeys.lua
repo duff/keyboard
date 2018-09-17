@@ -1,6 +1,6 @@
 -- Keybindings for launching apps using the Hyper key
 hyperModeAppMappings = {
-  { 'a', '1Password 6' },
+  { 'a', '1Password 7' },
   { 'c', 'Safari' },
   { 'u', 'iTunes' },
   { 'v', 'MacVim' },
@@ -12,7 +12,7 @@ hyperModeAppMappings = {
   { 'p', 'Slack' },
   { 'o', 'Spotify' },
   { 't', 'iTerm' },
-  { 'h', 'Things3' }
+  { '1', 'Things3' }
 }
 
 for i, mapping in ipairs(hyperModeAppMappings) do
