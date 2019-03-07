@@ -1,14 +1,14 @@
 -- Keybindings for launching apps using the Hyper key
 hyperModeAppMappings = {
   { 'a', '1Password 7' },
-  { 'c', 'Safari' },
+  { 's', 'Safari' },
   { 'u', 'iTunes' },
   { 'v', 'MacVim' },
-  { 'e', 'Mail' },
+  { 'e', 'Airmail 3' },
   { 'm', 'Messages' },
   { 'n', 'NetNewsWire' },
   { 'f', 'Path Finder' },
-  { 's', 'Google Chrome' },
+  { 'c', 'Google Chrome' },
   { 'p', 'Slack' },
   { 'o', 'Spotify' },
   { 't', 'iTerm' },
