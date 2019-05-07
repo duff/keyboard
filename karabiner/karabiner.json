@@ -40,6 +40,23 @@
                                 "type": "basic"
                             }
                         ]
+                    },
+                    {
+                      "description": "Change right_command to command+control+option+shift.",
+                      "from": {
+                        "key_code": "right_command"
+                      },
+                      "to": [
+                        {
+                          "key_code": "left_shift",
+                          "modifiers": [
+                            "left_command",
+                            "left_control",
+                            "left_option"
+                          ]
+                        }
+                      ],
+                      "type": "basic"
                     }
                 ]
             },
