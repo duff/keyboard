@@ -16,7 +16,7 @@
                 },
                 "rules": [
                     {
-                        "description": "Change caps_lock to control if pressed with other keys, to escape if pressed alone.",
+                        "description": "Change caps_lock to option if pressed with other keys, to escape if pressed alone.",
                         "manipulators": [
                             {
                                 "from": {
@@ -29,7 +29,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "left_control"
+                                        "key_code": "left_option"
                                     }
                                 ],
                                 "to_if_alone": [
