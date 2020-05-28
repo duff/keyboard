@@ -1,18 +1,18 @@
 -- Keybindings for launching apps using the Hyper key
 hyperModeAppMappings = {
   { 'a', '1Password 7' },
-  { 's', 'Safari' },
+  { 's', 'Google Chrome' },
   { 'u', 'iTunes' },
   { 'v', 'MacVim' },
-  { 'e', 'Airmail 3' },
+  { 'e', 'Airmail' },
   { 'm', 'Messages' },
   { 'n', 'NetNewsWire' },
   { 'f', 'Path Finder' },
-  { 'c', 'Google Chrome' },
+  { 'c', 'Safari' },
   { 'p', 'Slack' },
   { 'o', 'Spotify' },
   { 't', 'iTerm' },
-  { '1', 'Things3' }
+  { '1', '2Do' }
 }
 
 for i, mapping in ipairs(hyperModeAppMappings) do
