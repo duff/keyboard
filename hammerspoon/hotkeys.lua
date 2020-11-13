@@ -4,7 +4,7 @@ hyperModeAppMappings = {
   { 's', 'Google Chrome' },
   { 'u', 'iTunes' },
   { 'v', 'MacVim' },
-  { 'e', 'Airmail' },
+  { 'e', 'Mail' },
   { 'm', 'Messages' },
   { 'n', 'NetNewsWire' },
   { 'f', 'Path Finder' },
