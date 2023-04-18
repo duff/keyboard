@@ -11,6 +11,7 @@ hyperModeAppMappings = {
   { 'p', 'Slack' },
   { 'o', 'Spotify' },
   { 't', 'iTerm' },
+  { 'x', 'xCode' },
   { '1', '2Do' }
 }
 
