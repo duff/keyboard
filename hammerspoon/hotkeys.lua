@@ -1,6 +1,6 @@
 -- Keybindings for launching apps using the Hyper key
 hyperModeAppMappings = {
-  { 'a', '1Password 7' },
+  { 'a', '1Password' },
   { 'c', 'Google Chrome' },
   { 'u', 'iTunes' },
   { 'e', 'HEY' },
