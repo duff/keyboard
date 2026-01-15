@@ -200,6 +200,9 @@ function window.nextScreen(win)
   else
     win:moveToScreen(allScreens[1])
   end
+
+  hs.timer.usleep(30000)
+  window.centerWithFullHeight(win)
 end
 
 windowLayoutMode = hs.hotkey.modal.new({}, 'F16')
