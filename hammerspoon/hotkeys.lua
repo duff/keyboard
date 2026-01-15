@@ -12,12 +12,22 @@ hyperModeAppMappings = {
   { 'o', 'Spotify' },
   { 't', 'iTerm' },
   { 'x', 'xCode' },
+  { 'v', "Duff's Windows" },
   { '1', 'Todoist' }
 }
 
+local function hyperFocus(appName)
+  local app = hs.application.get(appName)
+  if app then
+    app:activate(true)
+  else
+    hs.application.launchOrFocus(appName)
+  end
+end
+
 for i, mapping in ipairs(hyperModeAppMappings) do
   hs.hotkey.bind({"cmd","ctrl","alt","shift", }, mapping[1], function()
-    hs.application.launchOrFocus(mapping[2])
+    hyperFocus(mapping[2])
   end)
 end
 
