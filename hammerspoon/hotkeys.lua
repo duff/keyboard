@@ -1,13 +1,13 @@
 -- Keybindings for launching apps using the Hyper key
 hyperModeAppMappings = {
   { 'a', '1Password' },
-  { 'c', 'Google Chrome' },
+  { 'c', 'Safari' },
   { 'u', 'iTunes' },
   { 'e', 'HEY' },
   { 'm', 'Messages' },
   { 'n', 'NetNewsWire' },
   { 'f', 'Path Finder' },
-  { 's', 'Safari' },
+  { 's', 'Google Chrome' },
   { 'p', 'Slack' },
   { 'o', 'Spotify' },
   { 't', 'iTerm' },
@@ -37,6 +37,11 @@ hs.hotkey.bind({"cmd","ctrl","alt","shift"}, 'g', nil, function()
   hs.eventtap.keyStrokes('d ')
 end)
 
+hs.hotkey.bind({"cmd","ctrl","alt","shift"}, 'r', nil, function()
+  hs.eventtap.keyStroke({'alt'}, 'space')
+  hs.timer.usleep(20000)
+  hs.eventtap.keyStrokes('gr ')
+end)
 
 hs.hotkey.bind({"ctrl"}, '=', nil, function()
   local device = hs.audiodevice.defaultOutputDevice()
